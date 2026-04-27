@@ -1,0 +1,120 @@
+
+body {
+    /* Angular gradient background */
+    background: linear-gradient(135deg, #3F7878 47%, #74DEDE 100%);
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+}
+
+/* (Destination) */
+.mountain-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}      
+.btn-learn {
+    background-color: orange;
+    color: #222;
+    font-weight: 700;
+    padding: 12px 35px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+/* (TRAVEL GUIDE) */
+.page-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.gear-card img {
+    width: 100%;
+    max-width: 160px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/* ("ACTIVITIES") */
+.page-title {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.activity-img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.activity-text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.activity-text-block h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.activity-text-block p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
+/* (ABOUT)*/
+.nav-link {
+    color: white !important;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* About Content Text Spacing */
+.about-content p {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+}
+
+.custom-input {
+    background-color: rgba(255, 255, 255, 0.15) !important; 
+    border: 1.5px solid #000 !important; 
+    border-radius: 12px !important;
+    color: white !important;
+    padding: 10px 15px;
+}
+
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.custom-input:focus {
+    box-shadow: none;
+    border-color: #fff !important;
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+textarea.custom-input {
+    border-radius: 18px !important;
+}
+
+/* Layout adjustments */
+@media (max-width: 1920px) {
+    .about-content p { font-size: 1rem; }
+}
